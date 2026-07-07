@@ -1,9 +1,9 @@
 class Solution {
 public:
     string convert(string s, int numRows) {
-
+        int sizeofstring = s.length();
         // If the string has only one character, return it
-        if (s.length() == 1)
+        if (sizeofstring == 1)
             return s;
 
         // If there is only one row, Zigzag is the same as the original string
@@ -15,15 +15,15 @@ public:
 
         int index = 0;
 
-        while (index < s.length()) {
+        while (index < sizeofstring) {
 
             // Move downward
-            for (int row = 0; row < numRows && index < s.length(); row++) {
+            for (int row = 0; row < numRows && index < sizeofstring; row++) {
                 rows[row].push_back(s[index++]);
             }
 
             // Move diagonally upward
-            for (int row = numRows - 2; row > 0 && index < s.length(); row--) {
+            for (int row = numRows - 2; row > 0 && index < sizeofstring; row--) {
                 rows[row].push_back(s[index++]);
             }
         }
