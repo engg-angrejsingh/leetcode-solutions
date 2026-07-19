@@ -51,11 +51,15 @@ This repository contains my accepted **LeetCode** solutions written in **C++**. 
 4. Review the C++ solution.
 5. Learn the time and space complexity.
 
-<h1>🚀 LeetCode Solutions</h1>
-
 <p>
 
-<img src="https://leetcard.jacoblin.cool/angrejsingh?theme=dark&font=Poppins&ext=contest"/>
+# 💻 LeetCode
+
+<div align="" width="100%">
+
+<img  style="width: 50%;" src="https://leetcard.jacoblin.cool/angrejsingh?theme=dark&font=Poppins&ext=heatmap"/>
+
+</div>
 
 </p>
 
