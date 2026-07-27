@@ -15,3 +15,17 @@ public:
         return i + 1;
     }
 };
+
+/*
+⏱️ Time Complexity: O(n)
+
+Reason:
+- We traverse the array only once.
+- Each element is compared and processed exactly one time.
+
+💾 Space Complexity: O(1)
+
+Reason:
+- The array is modified in-place.
+- Only two pointer variables are used.
+*/
